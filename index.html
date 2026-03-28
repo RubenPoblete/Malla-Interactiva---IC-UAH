@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular - Ing. Comercial UAH</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+
+    <div class="header-uah">
+        <div class="logo-uah">
+            <span class="sigla">uah</span>
+            <span class="slash">/</span>
+            <span class="texto">Universidad<br>Alberto Hurtado</span>
+        </div>
+        
+        <div class="header-title">
+            <h1>Malla Curricular<br><strong>Ingeniería Comercial</strong></h1>
+            <div class="acciones-container">
+                <button id="btn-dark" onclick="toggleDarkMode()" class="btn-accion">🌙 Modo Oscuro</button>
+                <button onclick="exportarMalla()" class="btn-accion btn-exportar">📸 Exportar</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="selector-mencion">
+        <button id="btn-admin" class="btn-mencion activo" onclick="cambiarMencion('ADMIN')">Mención Administración</button>
+        <button id="btn-eco" class="btn-mencion" onclick="cambiarMencion('ECONOM')">Mención Economía</button>
+    </div>
+
+    <div class="leyenda" id="leyenda"></div>
+    <div class="malla-container" id="malla"></div>
+
+    <div id="toast-notificacion" class="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
