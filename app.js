@@ -84,7 +84,7 @@ const datosMalla = {
             ["Emprendimiento","EMP","12","12","ADMIN",["GESTIN"],""],
             ["Consultoría","COSULT","12","12","ADMIN",["GESTPER-II"],""],
             ["Juego de Negocios","JUEGDNEG","10","10","ADMIN",["EST"],""],
-            ["Optativo Formación General","OFC-II","10","10","OFC",[],""]
+            ["Optativo Formación Complementaria","OFC-II","10","10","OFC",[],""]
         ],
         "s10": [
             ["Taller de Titulación","TATITUT","20","20","PC",[],""],
