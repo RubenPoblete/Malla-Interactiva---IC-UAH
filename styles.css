@@ -267,8 +267,8 @@ body.modo-exportacion .creditos-desarrollo {
     color: var(--texto-principal);
     opacity: 0.5;
     z-index: 100;
-    user-select: none; /* Evita que el texto sea seleccionado por accidente */
-    pointer-events: none; /* Evita que interfiera si el usuario hace clic en esa zona */
+    user-select: none; 
+    pointer-events: none; 
     transition: opacity 0.3s ease, color 0.3s ease;
 }
 
@@ -280,7 +280,7 @@ body.modo-exportacion .creditos-desarrollo {
 /* Ajuste para teléfonos móviles */
 @media (max-width: 768px) {
     .creditos-desarrollo {
-        position: relative; /* Cambia a relativo para no tapar contenido en pantallas pequeñas */
+        position: relative; 
         bottom: 0;
         right: 0;
         text-align: center;
