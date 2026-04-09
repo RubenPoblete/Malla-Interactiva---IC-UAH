@@ -250,4 +250,42 @@ body.modo-exportacion .malla-container {
     overflow-x: visible !important;
     padding-bottom: 20px !important;
     height: auto !important;
+body.modo-exportacion .creditos-desarrollo {
+    position: absolute !important;
+    bottom: 20px !important;
+    right: 30px !important;
+    opacity: 0.8 !important;
+}
+
+/*--------------- Créditos de Desarrollo -----------------------*/
+.creditos-desarrollo {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    font-size: 0.75em;
+    font-family: var(--font-textos);
+    color: var(--texto-principal);
+    opacity: 0.5;
+    z-index: 100;
+    user-select: none; /* Evita que el texto sea seleccionado por accidente */
+    pointer-events: none; /* Evita que interfiera si el usuario hace clic en esa zona */
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto hover sutil */
+.creditos-desarrollo:hover {
+    opacity: 0.9;
+}
+
+/* Ajuste para teléfonos móviles */
+@media (max-width: 768px) {
+    .creditos-desarrollo {
+        position: relative; /* Cambia a relativo para no tapar contenido en pantallas pequeñas */
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
 }
