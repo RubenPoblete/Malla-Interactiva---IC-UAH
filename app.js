@@ -42,7 +42,7 @@ const datosMalla = {
             ["Estadística II","EST-II","8","8","PC",["EST-I"],"I"],
             ["Gestión de Personas I","GESTPER-I","8","8","ADMIN",["PYO"],"I"],
             ["Finanzas I","FIN-I","8","8","PC",["MAT-II"],"I"],
-            ["Habilidades de Apredizaje IV","HAB-IV","5","5","PC",[],"I"],
+            ["Habilidades de Aprendizaje IV","HAB-IV","5","5","PC",[],"I"],
             ["Inglés III","ING-III","10","10","PC",["ING-II"],"I"]
         ],
         "s6": [
