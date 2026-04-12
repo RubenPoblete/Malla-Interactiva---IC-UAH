@@ -88,7 +88,7 @@ const datosMalla = {
         ],
         "s10": [
             ["Taller de Titulación","TATITUT","20","20","PC",[],""],
-            ["Habilidades Profesionales IV","HABPROF-V","8","8","PC",["HAB-IV"],""],
+            ["Habilidades Profesionales IV","HABPROF-IV","8","8","PC",["HAB-IV"],""],
             ["Optativo Formación Complementaria","OFC-III","10","10","OFC",[],""],
             ["Optativo Formación Complementaria","OFC-IV","10","10","OFC",[],""]
         ]
