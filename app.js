@@ -64,7 +64,7 @@ const datosMalla = {
             { nombre: "Organización Industrial",         codigo: "ORGAIN",     creditos: 10, categoria: "PC",     preReqs: ["MICRO-II"],              semestre: "I" },
             { nombre: "Macroeconomía III",               codigo: "MACRO-III",  creditos: 10, categoria: "ECONOM", preReqs: ["MACRO-II"],              semestre: "I" },
             { nombre: "Microeconometría",                codigo: "MIC-ECON",   creditos: 12, categoria: "ECONOM", preReqs: ["ECON"],                  semestre: "I" },
-            { nombre: "Finanzas II",                     codigo: "FIN-II",     creditos: 12, categoria: "PC",     preReqs: ["FIN-I"],                 semestre: "I" },
+            { nombre: "Finanzas II",                     codigo: "FIN-II",     creditos: 12, categoria: "PC",     preReqs: ["FIN-I","EST-II"],                 semestre: "I" },
             { nombre: "Habilidades Profesionales III",   codigo: "HABPROF-III",creditos: 5,  categoria: "PC",     preReqs: ["HAB-IV"],                semestre: "I" },
             { nombre: "Gestión de la Innovación",        codigo: "GESTIN",     creditos: 12, categoria: "ADMIN",  preReqs: ["PYO"],                   semestre: "" },
             { nombre: "Gestión de Personas II",          codigo: "GESTPER-II", creditos: 10, categoria: "ADMIN",  preReqs: ["GESTPER-I"],             semestre: "" }
